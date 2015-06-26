@@ -31,5 +31,11 @@ eslintTester.addRuleTest("rules/no-extra-if", {
       message: "Unexpected if as the only statement in an if block.",
       type: "IfStatement"
     }]
+  }, {
+    code: "if (a) if (b) {;}",
+    errors: [{
+      message: "Unexpected if as the only statement in an if block.",
+      type: "IfStatement"
+    }]
   }]
 });
