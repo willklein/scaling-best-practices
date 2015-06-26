@@ -32,3 +32,9 @@ Speaker notes are forthcoming, though the slides should be comprehensible as the
 [Gurdas Nijor @ React.js Conf - Unlocking the Structure of Your React Applications with the AST](http://conf.reactjs.com/schedule.html#unlocking-the-structure-of-your-react-applications-with-the-ast)
 
 [Dann Toliver @ JSConf US 2015 - Visualizing Process Evolution](http://2015.jsconf.us/speakers.html#toliver)
+
+### Support
+
+Tweet me [@willslab](https://twitter.com/willslab)
+
+[ESLint Gitter Chat](http://gitter.im/eslint/eslint)
