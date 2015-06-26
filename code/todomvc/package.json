@@ -1,5 +1,8 @@
 {
   "private": true,
+  "scripts": {
+    "eslint": "eslint . --ext .js --ext .jsx"
+  },
   "dependencies": {
     "director": "^1.2.0",
     "react": "^0.13.3",
@@ -7,6 +10,9 @@
     "todomvc-common": "^1.0.1"
   },
   "devDependencies": {
-    "eslint": "^0.23.0"
+    "babel-eslint": "^3.1.18",
+    "eslint": "^0.23.0",
+    "eslint-plugin-demo": "0.0.0",
+    "eslint-plugin-react": "^2.5.2"
   }
 }
