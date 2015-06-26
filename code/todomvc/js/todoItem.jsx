@@ -66,10 +66,12 @@ var app = app || {};
 		 * and https://facebook.github.io/react/docs/component-specs.html#updating-componentdidupdate
 		 */
 		componentDidUpdate: function (prevProps) {
-			if (!prevProps.editing && this.props.editing) {
-				var node = React.findDOMNode(this.refs.editField);
-				node.focus();
-				node.setSelectionRange(node.value.length, node.value.length);
+			if (!prevProps.editing) {
+				if (this.props.editing) {
+					var node = React.findDOMNode(this.refs.editField);
+					node.focus();
+					node.setSelectionRange(node.value.length, node.value.length);
+				}
 			}
 		},
 
