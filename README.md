@@ -11,9 +11,7 @@ During this session, we'll learn to reason about ASTs to detect good and bad pat
 
 ## Slides
 
-[slides.com/willklein/toolmaking-with-asts](http://slides.com/willklein/toolmaking-with-asts)
-
-Speaker notes are forthcoming, though the slides should be comprehensible as they are.
+[slides.com/willklein/toolmaking-with-asts (non-live version)](https://slides.com/willklein/toolmaking-with-asts-non-live)
 
 ## Code
 
