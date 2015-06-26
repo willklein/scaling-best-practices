@@ -1,7 +1,7 @@
-var example = require('./rules/example');
+var noExtraIf = require('./rules/no-extra-if');
 
 module.exports = {
   rules: {
-    example: example
+    'no-extra-if': noExtraIf
   }
 };
