@@ -9,7 +9,23 @@ Fortunately, there is also a revolution in JavaScript tooling. New tools are her
 
 During this session, we'll learn to reason about ASTs to detect good and bad patterns in computer language. To drive this home, we'll build our own tools by writing custom rules in ESLint.	
 
+## Slides
+
+[slides.com/willklein/toolmaking-with-asts](http://slides.com/willklein/toolmaking-with-asts)
+
+Speaker notes are forthcoming, though the slides should be comprehensible as they are.
+
 ## Further Learning
+
+### Tools
+
+[JointJS JavaScript AST visualizer](http://jointjs.com/demos/javascript-ast)
+
+[metajs: visualize JavaScript AST execution](http://int3.github.io/metajs/)
+
+### Docs
+
+[ESLint: Working with Rules](http://eslint.org/docs/developer-guide/working-with-rules.html)
 
 ### Conference Talks
 
