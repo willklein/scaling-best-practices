@@ -15,6 +15,10 @@ During this session, we'll learn to reason about ASTs to detect good and bad pat
 
 Speaker notes are forthcoming, though the slides should be comprehensible as they are.
 
+## Code
+
+The slides have a simple, self-contained example, along with the code snippet for a simple ESLint rule. This repo has a richer example, a clone of the React TodoMVC example. It also has the same rule broken out into a plugin, along with tests that you can run to experiment with modifications.
+
 ## Further Learning
 
 ### Tools
