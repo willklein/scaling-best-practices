@@ -35,6 +35,8 @@ To run the Mocha tests for the ESLint plugin, `cd` into the `code/eslint-plugin-
 
 [Maintaining JavaScript Code Quality with ESLint](https://www.paypal-engineering.com/2014/12/12/maintaining-javascript-code-quality-with-eslint/) - From Jamund Ferguson on PayPal Engineering
 
+[Lint Like It's 2015](https://medium.com/@dan_abramov/lint-like-it-s-2015-6987d44c5b48) - From Dan Abramov
+
 ### Tools
 
 [JointJS JavaScript AST visualizer](http://jointjs.com/demos/javascript-ast) - Used to generate SVGs in the slides, great for visualizing ASTs
