@@ -33,19 +33,19 @@ To run the Mocha tests for the ESLint plugin, `cd` into the `code/eslint-plugin-
 
 ### Articles
 
-[Maintaining JavaScript Code Quality with ESLint](https://www.paypal-engineering.com/2014/12/12/maintaining-javascript-code-quality-with-eslint/) - From Jamund Ferguson on PayPal Engineering
+[Maintaining JavaScript Code Quality with ESLint](https://www.paypal-engineering.com/2014/12/12/maintaining-javascript-code-quality-with-eslint/) - by Jamund Ferguson
 
-[Lint Like It's 2015](https://medium.com/@dan_abramov/lint-like-it-s-2015-6987d44c5b48) - From Dan Abramov
+[Lint Like It's 2015](https://medium.com/@dan_abramov/lint-like-it-s-2015-6987d44c5b48) - by Dan Abramov
 
 ### Tools
 
-[JointJS JavaScript AST visualizer](http://jointjs.com/demos/javascript-ast) - Used to generate SVGs in the slides, great for visualizing ASTs
+[JointJS JavaScript AST visualizer](http://jointjs.com/demos/javascript-ast) - used to generate SVGs in the slides, great for visualizing ASTs
 
-[metajs: visualize JavaScript AST execution](http://int3.github.io/metajs/) - For visualizing code stepping
+[metajs: visualize JavaScript AST execution](http://int3.github.io/metajs/) - for visualizing code stepping
 
 ### Docs
 
-[ESLint: Working with Rules](http://eslint.org/docs/developer-guide/working-with-rules.html) - Doc for writing rules in ESLint
+[ESLint: Working with Rules](http://eslint.org/docs/developer-guide/working-with-rules.html) - doc for writing rules in ESLint
 
 ### Conference Talks
 
@@ -53,8 +53,12 @@ To run the Mocha tests for the ESLint plugin, `cd` into the `code/eslint-plugin-
 
 [Dann Toliver @ JSConf US 2015 - Visualizing Process Evolution](http://2015.jsconf.us/speakers.html#toliver)
 
+### Podcasts
+
+[JavaScript Jabber 162 - ESLint with Jamund Ferguson](http://devchat.tv/js-jabber/162-jsj-eslint-with-jamund-ferguson)
+
 ### Support
 
-Tweet me [@willslab](https://twitter.com/willslab)
-
 [ESLint Gitter Chat](http://gitter.im/eslint/eslint) - These folks are very helpful
+
+Tweet me [@willslab](https://twitter.com/willslab)
