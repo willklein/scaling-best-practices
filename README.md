@@ -37,6 +37,12 @@ To run the Mocha tests for the ESLint plugin, `cd` into the `code/eslint-plugin-
 
 [Lint Like It's 2015](https://medium.com/@dan_abramov/lint-like-it-s-2015-6987d44c5b48) - by Dan Abramov
 
+[Detect Problems in JavaScript Automatically with ESLint](http://davidwalsh.name/eslint) - by Jani Hartikainen
+
+[Understanding the Real Advantages of Using ESLint](http://rangle.io/blog/understanding-the-real-advantages-of-using-eslint/) - by Evan Schultz
+
+[Using eslint alongside the Firefox Hello code base to help productivity](https://blog.mozilla.org/standard8/2015/05/13/using-eslint-alongside-the-firefox-hello-code-base-to-help-productivity/) - by Standard8
+
 ### Tools
 
 [JointJS JavaScript AST visualizer](http://jointjs.com/demos/javascript-ast) - used to generate SVGs in the slides, great for visualizing ASTs
