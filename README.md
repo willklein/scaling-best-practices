@@ -45,6 +45,8 @@ To run the Mocha tests for the ESLint plugin, `cd` into the `code/eslint-plugin-
 
 ### Tools
 
+[Esprima Parser demo](http://esprima.org/demo/parse.html) and related [blog post](http://ariya.ofilabs.com/2012/04/javascript-syntax-tree-visualization-with-esprima.html) by Ariya Hidayat
+
 [JointJS JavaScript AST visualizer](http://jointjs.com/demos/javascript-ast) - used to generate SVGs in the slides, great for visualizing ASTs
 
 [metajs: visualize JavaScript AST execution](http://int3.github.io/metajs/) - for visualizing code stepping
