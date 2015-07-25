@@ -55,6 +55,10 @@ To run the Mocha tests for the ESLint plugin, `cd` into the `code/eslint-plugin-
 
 [ESLint: Working with Rules](http://eslint.org/docs/developer-guide/working-with-rules.html) - doc for writing rules in ESLint
 
+[ESTree Spec](https://github.com/estree/estree/blob/master/spec.md) - core ESTree AST node types
+
+[ESTree ES6 Spec](https://github.com/estree/estree/blob/master/es6.md) -  extensions to the core ESTree AST types to support the ES6 grammar
+
 ### Conference Talks
 
 [Gurdas Nijor @ React.js Conf - Unlocking the Structure of Your React Applications with the AST](http://conf.reactjs.com/schedule.html#unlocking-the-structure-of-your-react-applications-with-the-ast)
