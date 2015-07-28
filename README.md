@@ -63,6 +63,8 @@ To run the Mocha tests for the ESLint plugin, `cd` into the `code/eslint-plugin-
 
 [Gurdas Nijor @ React.js Conf - Unlocking the Structure of Your React Applications with the AST](http://conf.reactjs.com/schedule.html#unlocking-the-structure-of-your-react-applications-with-the-ast)
 
+[Mark Knichel @ JSConf EU 2014 - JavaScript Tools at Scale Using Type Information](https://www.youtube.com/watch?v=oXZaqHWq6cM)
+
 [Dann Toliver @ JSConf US 2015 - Visualizing Process Evolution](http://2015.jsconf.us/speakers.html#toliver)
 
 ### Podcasts
