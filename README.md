@@ -11,13 +11,10 @@ During this session, we'll learn to reason about ASTs to detect good and bad pat
 
 ## Slides
 
-These slides contain abbreviated speaker notes on each slide:
+There are several versions of the slides, but the most recent and concise are from a recent lightning talk:
 
-> [slides.com/willklein/toolmaking-with-asts (non-live version)](https://slides.com/willklein/toolmaking-with-asts-non-live)
+[DenverScript Lightning Talk](http://slides.com/willklein/toolmaking-with-asts-lightning-edition)
 
-The stock slides, no speaker notes:
-
-> [slides.com/willklein/toolmaking-with-asts](https://slides.com/willklein/toolmaking-with-asts)
 
 ## Code
 
