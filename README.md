@@ -38,6 +38,8 @@ To run the Mocha tests for the ESLint plugin, `cd` into the `code/eslint-plugin-
 
 [Using eslint alongside the Firefox Hello code base to help productivity](https://blog.mozilla.org/standard8/2015/05/13/using-eslint-alongside-the-firefox-hello-code-base-to-help-productivity/) - by Standard8
 
+[Get Started with ESLint v1.0](http://devnull.guru/get-started-with-eslint/) - by Ian VanSchooten
+
 ### Tools
 
 [Esprima Parser demo](http://esprima.org/demo/parse.html) and related [blog post](http://ariya.ofilabs.com/2012/04/javascript-syntax-tree-visualization-with-esprima.html) by Ariya Hidayat

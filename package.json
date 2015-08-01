@@ -1,0 +1,19 @@
+{
+  "name": "toolmaking-with-asts",
+  "version": "0.0.1",
+  "description": "Slides and material for a potential conference talk",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willklein/toolmaking-with-asts.git"
+  },
+  "author": "Will Klein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willklein/toolmaking-with-asts/issues"
+  },
+  "homepage": "https://github.com/willklein/toolmaking-with-asts#readme",
+  "private": true
+}
