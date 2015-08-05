@@ -40,6 +40,8 @@ To run the Mocha tests for the ESLint plugin, `cd` into the `code/eslint-plugin-
 
 [Get Started with ESLint v1.0](http://devnull.guru/get-started-with-eslint/) - by Ian VanSchooten
 
+[Linting JavaScript in 2015](http://blog.lauritz.me/linting-javascript-in-2015/) - by Lauritz Hilsøe
+
 ### Tools
 
 [Esprima Parser demo](http://esprima.org/demo/parse.html) and related [blog post](http://ariya.ofilabs.com/2012/04/javascript-syntax-tree-visualization-with-esprima.html) by Ariya Hidayat
