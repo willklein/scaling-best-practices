@@ -7,7 +7,7 @@
     "test": "mocha tests/rules"
   },
   "devDependencies": {
-    "eslint": "^0.22.1",
+    "eslint": "1.8.0",
     "eslint-tester": "^0.7.0",
     "mocha": "^2.2.5"
   },

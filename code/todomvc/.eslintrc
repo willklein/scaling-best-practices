@@ -16,7 +16,6 @@
     "no-dupe-args": 2,
     "no-dupe-keys": 2,
     "no-duplicate-case": 2,
-    "no-empty-class": 2,
     "no-empty": 2,
     "no-ex-assign": 2,
     "no-extra-boolean-cast": 2,
@@ -29,7 +28,6 @@
     "no-negated-in-lhs": 2,
     "no-obj-calls": 2,
     "no-regex-spaces": 2,
-    "no-reserved-keys": 2,
     "no-sparse-arrays": 2,
     "no-unreachable": 2,
     "use-isnan": 2,
@@ -109,7 +107,7 @@
     "consistent-this": 2,
     "eol-last": 2,
     "func-names": 0,
-    "func-style": 2,
+    "func-style": 0,
     "indent": 0,
     "key-spacing": 2,
     "linebreak-style": 2,
@@ -129,10 +127,9 @@
     "no-trailing-spaces": 2,
     "no-underscore-dangle": 2,
     "no-unneeded-ternary": 2,
-    "no-wrap-func": 2,
-    "one-var": 2,
+    "one-var": 0,
     "operator-assignment": 2,
-    "operator-linebreak": 2,
+    "operator-linebreak": 0,
     "padded-blocks": 0,
     "quote-props": 0,
     "quotes": 0,
@@ -141,12 +138,10 @@
     "sort-vars": 2,
     "space-after-keywords": 2,
     "space-before-blocks": 2,
-    "space-in-brackets": 2,
     "space-in-parens": 2,
     "space-infix-ops": 2,
     "space-return-throw-case": 2,
     "space-unary-ops": 2,
-    "spaced-line-comment": 2,
     "wrap-regex": 2,
     "generator-star-spacing": 2,
     "no-var": 0,
@@ -159,6 +154,6 @@
     "no-plusplus": 0,
     "no-extra-strict": 0,
     
-    "demo/no-extra-if": 2
+    "demo/no-extra-if": 1
   }
 }
