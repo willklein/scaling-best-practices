@@ -17,8 +17,9 @@ module.exports = function(context) {
         grandparent = ancestors.pop();
 
       if (parent.type === "IfStatement" ||
-          (grandparent.type === "IfStatement" &&
+          (parent.type === "BlockStatement" &&
            parent.body.length === 1 &&
+           grandparent.type === "IfStatement" &&
            parent === grandparent.consequent)) {
         context.report(node, "Unexpected if as the only statement in an if block.");
       }
