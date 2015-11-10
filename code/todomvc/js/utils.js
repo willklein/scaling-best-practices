@@ -5,7 +5,6 @@ var app = app || {};
 
 	app.Utils = {
 		uuid: function () {
-			/*jshint bitwise:false */
 			var i, random;
 			var uuid = '';
 
