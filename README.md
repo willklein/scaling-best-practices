@@ -1,5 +1,5 @@
-# Toolmaking with ASTs
-> Slides and material for a potential conference talk
+# Scaling Best Practices with Syntax Trees
+> Slides and material for a conference talk
 
 ## Proposal
 
@@ -9,10 +9,7 @@ Fortunately, there is also a revolution in JavaScript tooling. New tools are her
 
 ## Slides
 
-There are several versions of the slides, but the most recent and concise are from a recent lightning talk:
-
-[DenverScript Lightning Talk](http://slides.com/willklein/toolmaking-with-asts-lightning-edition)
-
+[Midwest.io - November 2015](http://slides.com/willklein/scaling-best-practices)
 
 ## Code
 
@@ -44,9 +41,9 @@ To run the Mocha tests for the ESLint plugin, `cd` into the `code/eslint-plugin-
 
 ### Tools
 
-[Esprima Parser demo](http://esprima.org/demo/parse.html) and related [blog post](http://ariya.ofilabs.com/2012/04/javascript-syntax-tree-visualization-with-esprima.html) by Ariya Hidayat
+[ESLint - Pluggable JavaScript linter](http://eslint.org)
 
-[JointJS JavaScript AST visualizer](http://jointjs.com/demos/javascript-ast) - used to generate SVGs in the slides, great for visualizing ASTs
+[Esprima Parser demo](http://esprima.org/demo/parse.html) and related [blog post](http://ariya.ofilabs.com/2012/04/javascript-syntax-tree-visualization-with-esprima.html) by Ariya Hidayat
 
 [metajs: visualize JavaScript AST execution](http://int3.github.io/metajs/) - for visualizing code stepping
 
@@ -58,7 +55,7 @@ To run the Mocha tests for the ESLint plugin, `cd` into the `code/eslint-plugin-
 
 [ESTree ES6 Spec](https://github.com/estree/estree/blob/master/es6.md) -  extensions to the core ESTree AST types to support the ES6 grammar
 
-### Conference Talks
+### Other Conference Talks
 
 [Gurdas Nijor @ React.js Conf - Unlocking the Structure of Your React Applications with the AST](http://conf.reactjs.com/schedule.html#unlocking-the-structure-of-your-react-applications-with-the-ast)
 
