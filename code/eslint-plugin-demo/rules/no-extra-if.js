@@ -13,14 +13,13 @@ module.exports = function(context) {
   return {
     "IfStatement": function(node) {
       var ancestors = context.getAncestors(),
-        parent = ancestors.pop(),
-        grandparent = ancestors.pop();
+          parent = ancestors.pop(),
+          grandparent = ancestors.pop();
 
-      if (parent.type === "IfStatement" ||
+      if (parent.consequent === node ||
           (parent.type === "BlockStatement" &&
            parent.body.length === 1 &&
-           grandparent.type === "IfStatement" &&
-           parent === grandparent.consequent)) {
+           grandparent.type === "IfStatement")) {
         context.report(node, "Unexpected if as the only statement in an if block.");
       }
     }

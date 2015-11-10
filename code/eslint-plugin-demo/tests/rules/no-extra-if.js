@@ -21,7 +21,8 @@ eslintTester.addRuleTest("rules/no-extra-if", {
   valid: [
     "if (a) { if (b) {;} ; }",
     "if (a) { ; if (b) {;} }",
-    "if (a) {;} else { if (b) {;} }"
+    "if (a) {;} else if (b) {;}",
+    "(function() { if (b) {;} })"
   ],
 
   // Examples of code that should trigger the rule
@@ -33,6 +34,12 @@ eslintTester.addRuleTest("rules/no-extra-if", {
     }]
   }, {
     code: "if (a) if (b) {;}",
+    errors: [{
+      message: "Unexpected if as the only statement in an if block.",
+      type: "IfStatement"
+    }]
+  }, {
+    code: "if (a) {;} else { if (b) {;} }",
     errors: [{
       message: "Unexpected if as the only statement in an if block.",
       type: "IfStatement"
