@@ -11,6 +11,8 @@ Fortunately, there is also a revolution in JavaScript tooling. New tools are her
 
 [Midwest.io - November 2015](http://slides.com/willklein/scaling-best-practices)
 
+[Nodevember - November 2015](http://slides.com/willklein/scaling-best-practices)
+
 ## Code
 
 The slides have a simple, self-contained example, along with the code snippet for a simple ESLint rule. This repo has a richer example, a clone of TodoMVC in React. It also has the same rule broken out into a plugin, along with tests that you can run to experiment with modifications.
