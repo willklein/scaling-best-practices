@@ -7,6 +7,17 @@ var app = app || {};
 	var ENTER_KEY = 13;
 
 	app.TodoItem = React.createClass({
+		propTypes: {
+			badPropTypeExample: React.PropTypes.batman,
+			editing: React.PropTypes.bool,
+			onCancel: React.PropTypes.func.isRequired,
+			onEdit: React.PropTypes.func.isRequired,
+			onDestroy: React.PropTypes.func.isRequired,
+			onSave: React.PropTypes.func.isRequired,
+			onToggle: React.PropTypes.func.isRequired,
+			todo: React.PropTypes.object.isRequired
+		},
+
 		handleSubmit: function (event) {
 			var val = this.state.editText.trim();
 			if (val) {
@@ -61,12 +72,10 @@ var app = app || {};
 		 * and https://facebook.github.io/react/docs/component-specs.html#updating-componentdidupdate
 		 */
 		componentDidUpdate: function (prevProps) {
-			if (!prevProps.editing) {
-				if (this.props.editing) {
-					var node = React.findDOMNode(this.refs.editField);
-					node.focus();
-					node.setSelectionRange(node.value.length, node.value.length);
-				}
+			if (!prevProps.editing && this.props.editing) {
+				var node = React.findDOMNode(this.refs.editField);
+				node.focus();
+				node.setSelectionRange(node.value.length, node.value.length);
 			}
 		},
 

@@ -153,7 +153,10 @@
     "no-bitwise": 0,
     "no-plusplus": 0,
     "no-extra-strict": 0,
-    
-    "demo/no-extra-if": 1
+
+    "react/prop-types": 1,
+
+    "demo/no-extra-if": 2,
+    "demo/valid-prop-types": 1
   }
 }

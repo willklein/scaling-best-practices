@@ -1,3 +1,4 @@
+/*eslint react/prop-types: 0*/
 var app = app || {};
 
 (function () {
